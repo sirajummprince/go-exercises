@@ -2,7 +2,7 @@
 
 GO Exercise is a library containing basic go programs covering all the basic concepts. This repository is a collection of exercise problems, and solutions.
 
-### exercise_1.go
+### exercise_01.go
 
  * Using the short declaration operator, ASSIGN these VALUES to VARIABLES with the IDENTIFIERS ```“x”```, ```“y”```and ```“z”```
 
@@ -18,7 +18,7 @@ GO Exercise is a library containing basic go programs covering all the basic con
 
   * multiple print statements. What are these values called?
 
-### exercise_2.go
+### exercise_02.go
 
  * Use var to DECLARE three VARIABLES. The variables should have package level scope. Do not assign VALUES to the variables. Use the following IDENTIFIERS for the variables and make sure the variables are of the following TYPE (meaning they can store VALUES of that TYPE).
 
@@ -34,7 +34,7 @@ GO Exercise is a library containing basic go programs covering all the basic con
 
   * The compiler assigned values to the variables. What are these values called?
 
-### exercise_3.go
+### exercise_03.go
 
 Using the code from the previous exercise,
 
@@ -52,7 +52,7 @@ Using the code from the previous exercise,
 
   * print out the value stored by variable ```“s”```
 
-### exercise_4.go
+### exercise_04.go
 
 For this exercise,
 
@@ -71,7 +71,7 @@ For this exercise,
   * print out the value of the variable ```“x”```
 
 
-### exercise_5.go
+### exercise_05.go
 
 Building on the code from the previous example,
 
@@ -106,11 +106,11 @@ in func main,
 
    * print out the type of ```“y”```
 
-### exercise_6.go
+### exercise_06.go
 
 Write a program that prints a number in ```decimal, binary, and hex```
 
-### exercise_7.go
+### exercise_07.go
 
 Using the following operators, write expressions and assign their values to variables:
 
@@ -130,11 +130,11 @@ Using the following operators, write expressions and assign their values to vari
 
 Now print each of the variables.
 
-### exercise_8.go
+### exercise_08.go
 
 Create TYPED and UNTYPED constants. Print the values of the constants.
 
-### exercise_9.go
+### exercise_09.go
 
 Write a program that
 
