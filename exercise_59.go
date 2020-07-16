@@ -24,7 +24,7 @@ func main() {
 		go func() {
 			mu.Lock()
 			v := counter
-			runtime.Gosched()
+			//runtime.Gosched()
 			v++
 			counter = v
 			fmt.Println("Counter:\t", counter)
