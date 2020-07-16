@@ -650,13 +650,13 @@ Using goroutines, create an incrementer program
 
    * read the incrementer value
 
-    * store it in a new variable
+   * store it in a new variable
 
-    * yield the processor with ```runtime.Gosched()```
+   * yield the processor with ```runtime.Gosched()```
 
-    * increment the new variable
+   * increment the new variable
 
-    * write the value in the new variable back to the incrementer variable
+   * write the value in the new variable back to the incrementer variable
 
  * use waitgroups to wait for all of your goroutines to finish
 
