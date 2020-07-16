@@ -22,7 +22,6 @@ func main() {
 
 	for i := 0; i < gs; i++ {
 		go func() {
-
 			atomic.AddInt64(&counter, 1)
 			v := atomic.LoadInt64(&counter)
 			fmt.Println("Counter:\t", v)
