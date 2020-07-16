@@ -25,13 +25,14 @@ func main() {
 			runtime.Gosched()
 			v++
 			counter = v
+			fmt.Println("Counter:\t", counter)
 			wg.Done()
 		}()
 		fmt.Println("Go routines:\t", runtime.NumGoroutine())
 	}
 	wg.Wait()
 
-	fmt.Println("Counter:\t", counter)
+	fmt.Println("\n")
 	fmt.Println("Go routines:\t", runtime.NumGoroutine())
 }
 
