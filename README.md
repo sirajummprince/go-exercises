@@ -712,6 +712,9 @@ Get this code running:
  * [https://play.golang.org/p/_DBRueImEq](https://play.golang.org/p/oB-p3KMiH6)
 
 ### exercise_64.go
+
+Starting [with this code](https://play.golang.org/p/sfyu4Is3FG), pull the values off the channel using a for range loop
+
 ### exercise_65.go
 
 Starting [with this code](https://play.golang.org/p/sfyu4Is3FG) , pull the values off the channel using a select statement
