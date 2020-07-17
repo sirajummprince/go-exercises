@@ -711,16 +711,16 @@ Get this code running:
 
  * [https://play.golang.org/p/_DBRueImEq](https://play.golang.org/p/oB-p3KMiH6)
 
-
 ### exercise_64.go
+### exercise_65.go
 
 Starting [with this code](https://play.golang.org/p/sfyu4Is3FG) , pull the values off the channel using a select statement
 
-### exercise_65.go
+### exercise_66.go
 
 Show the comma ok idiom starting with [this code](https://play.golang.org/p/YHOMV9NYKK)
 
-### exercise_66.go
+### exercise_67.go
 
 Write a program that
 
@@ -728,7 +728,7 @@ Write a program that
 
  * pull the numbers off the channel and print them
 
-### exercise_67.go
+### exercise_68.go
 
 Write a program that
 
@@ -738,20 +738,20 @@ Write a program that
 
  * pull the numbers off the channel and print them
 
-### exercise_68.go
+### exercise_69.go
 
 Start [with this code](https://play.golang.org/p/3W69TH4nON). Instead of using the blank identifier, make sure the code is checking and
 handling the error.
 
-### exercise_69.go
+### exercise_70.go
 
 Start [with this code](https://play.golang.org/p/9a1IAWy5E6) . Create a custom error message using “fmt.Errorf”.
 
-### exercise_70.go
+### exercise_71.go
 
 Create a struct “customErr” which implements the builtin.error interface. Create a func “foo” that has a value of type error as a parameter. Create a value of type “customErr” and pass it into “foo”. If you need a hint, [here is one](https://play.golang.org/p/L5QWV8-p11).
 
-### exercise_71.go
+### exercise_72.go
 
 Starting [with this code](https://play.golang.org/p/wlEM1tgfQD) , use the sqrt.Error struct as a value of type error. If you would like, use these numbers for your
 
@@ -761,7 +761,7 @@ Starting [with this code](https://play.golang.org/p/wlEM1tgfQD) , use the sqrt.E
  * long "99.4656 W"
 ```
 
-### exercise_72.go
+### exercise_73.go
 
 Create a dog package. The dog package should have an exported func “Years” which takes human years and turns them into dog years (1 human year ```=``` 7 dog years). Document your code with comments. Use this code in ```func main```.
 
@@ -769,7 +769,7 @@ Create a dog package. The dog package should have an exported func “Years” w
 
  * run a local server with godoc and look at your documentation
 
-### exercise_73.go
+### exercise_74.go
 
 Use godoc at the command line to look at the documentation for:
 
@@ -782,7 +782,7 @@ Use godoc at the command line to look at the documentation for:
 
  * strconv
 
-### exercise_74.go
+### exercise_75.go
 
 Start [with this code](https://play.golang.org/p/S87WsSd4noR). Get the code ready to BET on the code (add benchmarks, examples, tests). Run the following in this order:
 
@@ -796,7 +796,7 @@ Start [with this code](https://play.golang.org/p/S87WsSd4noR). Get the code read
 
  * examples shown in documentation in a web browser
 
-### exercise_75.go
+### exercise_76.go
 
 Start [with this code](https://play.golang.org/p/lnGw07GfpxJ) . Get the code ready to BET on (add benchmarks, examples, tests) however
 do not write an example for the func that returns a map; and only write a test for it as an extra challenge. Add documentation to the code. Run the following in this order:
@@ -811,7 +811,7 @@ do not write an example for the func that returns a map; and only write a test f
 
  * examples shown in documentation in a web browser
 
-### exercise_76.go
+### exercise_77.go
 
 Start [with this code](https://play.golang.org/p/MwZ1xAD5Z5s). Get the code ready to BET on (add benchmarks, examples, tests). Write a table test. Add documentation to the code. Run the following in this order:
 
