@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"math"
 )
 
 type sqrtError struct {
@@ -25,7 +26,7 @@ func sqrt(f float64) (float64, error) {
 			err,
 		}
 	}
-	return 42, nil
+	return math.Sqrt(f), nil
 }
 
 func main() {
