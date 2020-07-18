@@ -20,9 +20,10 @@ func main() {
 	}
 
 	bs, err := json.Marshal(p1)
+
 	if err != nil {
 		log.Fatalln(err)
 	}
-	fmt.Println(string(bs))
 
+	fmt.Println(string(bs))
 }
