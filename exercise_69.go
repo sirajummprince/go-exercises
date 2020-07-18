@@ -18,7 +18,6 @@ func main() {
 		Last:    "Bond",
 		Sayings: []string{"Shaken, not stirred", "Any last wishes?", "Never say never"},
 	}
-
 	bs, err := json.Marshal(p1)
 
 	if err != nil {
