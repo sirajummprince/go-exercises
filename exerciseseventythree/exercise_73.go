@@ -3,8 +3,16 @@ package main
 import (
 	"fmt"
 
-	"./dog"
+	"github.com/sirajummprince/go-exercises/exerciseseventythree/dog"
+	//"./dog"
 )
+
+func ExampleDog() {
+	dogYears := dog.Years(10)
+	fmt.Println(dogYears)
+	//Output:
+	//70
+}
 
 func main() {
 	dogYears := dog.Years(7)
