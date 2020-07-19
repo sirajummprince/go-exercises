@@ -7,13 +7,6 @@ import (
 	//"./dog"
 )
 
-func ExampleDog() {
-	dogYears := dog.Years(10)
-	fmt.Println(dogYears)
-	//Output:
-	//70
-}
-
 func main() {
 	dogYears := dog.Years(7)
 	fmt.Println(dogYears)
