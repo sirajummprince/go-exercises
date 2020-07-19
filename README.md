@@ -846,3 +846,15 @@ To run local server to acces `godoc` offline run:
 To read `godoc` in browser:
 
 |`localhost:[port number]`
+
+## Testing
+
+To test go file run:
+
+`$ go test`
+
+## Benchmarking
+
+To benchmark go code run:
+
+`go test -bench .`
