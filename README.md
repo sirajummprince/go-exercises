@@ -832,3 +832,17 @@ Start [with this code](https://play.golang.org/p/MwZ1xAD5Z5s). Get the code read
 ### exercise\_factorial\_36.go
 ### exercise\_json\_marshal\_49.go
 ### exercise\_json\_unmarsha\_50.go
+
+## godoc offline
+
+If `$ godoc` does not work in command line or git bash run: 
+
+|`$ go get -v  golang.org/x/tools/cmd/godoc`
+
+To run local server to acces `godoc` offline run:
+
+|`$ godoc -http=:[port number]`
+
+To read `godoc` in browser:
+
+|`localhost:[port number]`
