@@ -764,7 +764,7 @@ Starting [with this code](https://play.golang.org/p/wlEM1tgfQD) , use the sqrt.E
  * long "99.4656 W"
 ```
 
-### exercise_73.go
+### exerciseseventythree
 
 Create a dog package. The dog package should have an exported func “Years” which takes human years and turns them into dog years (1 human year ```=``` 7 dog years). Document your code with comments. Use this code in ```func main```.
 
@@ -785,7 +785,7 @@ Use godoc at the command line to look at the documentation for:
 
  * strconv
 
-### exercise_75.go
+### exerciseseventyfive
 
 Start [with this code](https://play.golang.org/p/S87WsSd4noR). Get the code ready to BET on the code (add benchmarks, examples, tests). Run the following in this order:
 
@@ -799,7 +799,7 @@ Start [with this code](https://play.golang.org/p/S87WsSd4noR). Get the code read
 
  * examples shown in documentation in a web browser
 
-### exercise_76.go
+### exerciseseventysix
 
 Start [with this code](https://play.golang.org/p/lnGw07GfpxJ) . Get the code ready to BET on (add benchmarks, examples, tests) however
 do not write an example for the func that returns a map; and only write a test for it as an extra challenge. Add documentation to the code. Run the following in this order:
