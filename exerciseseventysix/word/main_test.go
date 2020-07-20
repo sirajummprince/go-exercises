@@ -1,7 +1,10 @@
 package word
 
 import (
+	"fmt"
 	"testing"
+
+	"github.com/sirajummprince/go-exercises/exerciseseventysix/quote"
 )
 
 func TestCount(t *testing.T) {
@@ -29,24 +32,35 @@ func TestUseCount(t *testing.T) {
 
 func BenchmarkCount(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		Count(Count.SunAlso)
+		Count(quote.SunAlso)
 	}
 }
 
 func BenchmarkUseCount(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		UseCount(UseCount.SunAlso)
+		UseCount(quote.SunAlso)
 	}
 }
 
 func ExampleCount() {
-	Count("Sirajum Munir Prince Prince")
+	fmt.Println(Count("Sirajum Munir Prince Prince"))
 	//Output:
 	//4
 }
 
+// func ExampleUseCount() {
+// 	fmt.Println(UseCount("Sirajum Munir Prince Prince"))
+// 	//Output:
+// 	//1 Sirajum
+// 	//1 Munir
+// 	//2 Prince
+// }
+
 func ExampleUseCount() {
-	UseCount("Sirajum Munir Prince Prince")
+	c := UseCount("Sirajum Munir Prince Prince")
+	for i, v := range c {
+		fmt.Println(v, i)
+	}
 	//Output:
 	//1 Sirajum
 	//1 Munir
