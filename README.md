@@ -1,6 +1,6 @@
 # GO Exercises
 
-GO Exercise is a library containing basic go programs covering all the basic concepts. This repository is a collection of exercise problems, and solutions. All the problem sets were solved from the course: **Learn How To Code Google’s Go (golang) Programming Language** taught by **Todd McLeod**
+GO Exercise is a library containing basic go programs covering all the basic concepts. This repository is a collection of exercise problems, and solutions. All the problem sets were solved from the course: **Learn How To Code Google’s Go (golang) Programming Language** taught by **Todd McLeod**.
 
 ### exercise_01.go
 
