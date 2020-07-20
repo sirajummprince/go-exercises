@@ -814,7 +814,7 @@ do not write an example for the func that returns a map; and only write a test f
 
  * examples shown in documentation in a web browser
 
-### exercise_77.go
+### exerciseseventyseven
 
 Start [with this code](https://play.golang.org/p/MwZ1xAD5Z5s). Get the code ready to BET on (add benchmarks, examples, tests). Write a table test. Add documentation to the code. Run the following in this order:
 
