@@ -785,6 +785,8 @@ Use godoc at the command line to look at the documentation for:
 
  * strconv
 
+See `godoc offline` for accessing godoc.
+
 ### exerciseseventyfive
 
 Start [with this code](https://play.golang.org/p/S87WsSd4noR). Get the code ready to BET on the code (add benchmarks, examples, tests). Run the following in this order:
