@@ -48,14 +48,6 @@ func ExampleCount() {
 	//4
 }
 
-// func ExampleUseCount() {
-// 	fmt.Println(UseCount("Sirajum Munir Prince Prince"))
-// 	//Output:
-// 	//1 Sirajum
-// 	//1 Munir
-// 	//2 Prince
-// }
-
 func ExampleUseCount() {
 	c := UseCount("Sirajum Munir Prince Prince")
 	for i, v := range c {
