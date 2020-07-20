@@ -1,6 +1,6 @@
 # GO Exercises
 
-GO Exercise is a library containing basic go programs covering all the basic concepts. This repository is a collection of exercise problems, and solutions.
+GO Exercise is a library containing basic go programs covering all the basic concepts. This repository is a collection of exercise problems, and solutions. All the problem sets were solved from the course: **Learn How To Code Google’s Go (golang) Programming Language** taught by **Todd McLeod**
 
 ### exercise_01.go
 
@@ -831,9 +831,20 @@ Start [with this code](https://play.golang.org/p/MwZ1xAD5Z5s). Get the code read
  * examples shown in documentation in a web browser
 
 ### exercise\_callback\_35.go
+
+Practise code for callback
+
 ### exercise\_factorial\_36.go
+
+Practise code to calculate factorial
+
 ### exercise\_json\_marshal\_49.go
+
+Practise code for marshaling json
+
 ### exercise\_json\_unmarsha\_50.go
+
+Practise code for unmarshaling json
 
 ## godoc offline
 
