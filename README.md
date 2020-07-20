@@ -858,3 +858,17 @@ To test go file run:
 To benchmark go code run:
 
 `go test -bench .`
+
+## Coverage
+
+To test coverage:
+
+`go test -cover`
+
+To print coverage to a file:
+
+`go test -coverprofile cover_file_name.out`
+
+To view coverage in browser:
+
+`go tool cover -html=cover_file_name.out`
