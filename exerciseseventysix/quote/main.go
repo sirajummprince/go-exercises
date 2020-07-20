@@ -1,5 +1,7 @@
 package quote
 
+//SunAlso contains the string that will be used to count the
+//words in it, and the number of occurrence, if they are redundant
 const SunAlso = `Robert Cohn was once middleweight boxing 
 champion of Princeton. Do not think that I am very much 
 impressed by that as a boxing title, but it meant a lot to Cohn.
@@ -92,22 +94,27 @@ I suggested we fly to Strasbourg and walk up to Saint Odile, or
 somewhere or other in Alsace. "I know a girl in Strasbourg who 
 can show us the town," I said. Somebody kicked me under the table. 
 I thought it was accidental and went on: "She's been there two years 
-and knows everything there is to know about the town. She's a swell girl." 
-I was kicked again under the table and, looking, saw Frances, Robert's lady, 
-her chin lifting and her face hardening. "Hell," I said, "why go to Strasbourg? 
-We could go up to Bruges, or to the Ardennes." Cohn looked relieved. I was not 
-kicked again. I said good-night and went out. Cohn said he wanted to buy a paper 
-and would walk to the corner with me. "For God's sake," he said, "why did you say 
-that about that girl in Strasbourg for? Didn't you see Frances?" "No, why should I? 
-If I know an American girl that lives in Strasbourg what the hell is it to Frances?" 
-"It doesn't make any difference. Any girl. I couldn't go, that would be all." 
-"Don't be silly." "You don't know Frances. Any girl at all. Didn't you see the 
-way she looked?" "Oh, well," I said, "let's go to Senlis." "Don't get sore." 
-"I'm not sore. Senlis is a good place and we can stay at the Grand Cerf and 
-take a hike in the woods and come home." "Good, that will be fine." "Well, 
-I'll see you to-morrow at the courts," I said. "Good-night, Jake," he said, 
-and started back to the café. "You forgot to get your paper," I said. 
-"That's so." He walked with me up to the kiosque at the corner. 
-"You are not sore, are you, Jake?" He turned with the paper in his hand. 
-"No, why should I be?" "See you at tennis," he said. I watched him walk 
-back to the café holding his paper. I rather liked him and evidently she led him quite a life.`
+and knows everything there is to know about the town. She's a swell 
+girl." I was kicked again under the table and, looking, saw 
+Frances, Robert's lady, her chin lifting and her face hardening. 
+"Hell," I said, "why go to Strasbourg? We could go up to Bruges, 
+or to the Ardennes." Cohn looked relieved. I was not kicked again. 
+I said good-night and went out. Cohn said he wanted to buy a paper 
+and would walk to the corner with me. "For God's sake," he said, 
+"why did you say that about that girl in Strasbourg for? Didn't 
+you see Frances?" "No, why should I? If I know an American 
+girl that lives in Strasbourg what the hell is it to Frances?" 
+"It doesn't make any difference. Any girl. I couldn't go, 
+that would be all." "Don't be silly." "You don't know Frances. 
+Any girl at all. Didn't you see the way she looked?" "Oh, well," 
+I said, "let's go to Senlis." "Don't get sore." "I'm not sore. 
+Senlis is a good place and we can stay at the Grand Cerf and 
+take a hike in the woods and come home." "Good, that will be fine." 
+"Well, I'll see you to-morrow at the courts," I said. "Good-night, 
+Jake," he said, and started back to the café. "You forgot to get 
+your paper," I said. "That's so." He walked with me up to the 
+kiosque at the corner. "You are not sore, are you, Jake?" 
+He turned with the paper in his hand. "No, why should I be?" 
+"See you at tennis," he said. I watched him walk back to the 
+café holding his paper. I rather liked him and evidently she 
+led him quite a life.`
